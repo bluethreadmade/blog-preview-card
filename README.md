@@ -23,11 +23,12 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
+![image](https://github.com/user-attachments/assets/498ea02a-920b-4c64-bc8e-231ea410ae8d)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/bluethreadmade/blog-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/bluethreadmade/blog-preview-card)
+- Live Site URL: (https://bluethreadmade.github.io/blog-preview-card/))
 
 ## My process
 

@@ -36,6 +36,10 @@ body {
     font-weight: 800;
 }
 
+#post h2:hover {
+    cursor: pointer;
+}
+
 #post #summary {
     color: #6B6B6B;
 }

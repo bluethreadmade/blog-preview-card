@@ -32,12 +32,12 @@ body {
     font-size: 14px;
 }
 
-#post h2 {
+#post h1 {
     margin: 2px 0px 2px 0px;
     font-weight: 800;
 }
 
-#post h2:hover {
+#post h1:hover {
     cursor: pointer;
 }
 

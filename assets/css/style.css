@@ -1,3 +1,31 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
 body {
     font-family: Figtree;
     background-color: #F4D04E;
@@ -16,11 +44,13 @@ body {
     max-width: min-content;
     box-shadow: 8px 8px #111111;
     padding: 16px;
+    margin:10px;
 }
 
 #post-image {
     border-radius: 10px;
     margin-bottom: 10px;
+    max-width: 20rem;
 }
 
 #post {
@@ -29,13 +59,13 @@ body {
 }
 
 #date {
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 #post h1 {
     margin: 2px 0px 2px 0px;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 #post h1:hover {
@@ -60,6 +90,10 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+#avatar {
+    max-width: 3rem;
 }
 
 #author-name {
